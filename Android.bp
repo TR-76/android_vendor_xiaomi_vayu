@@ -100,7 +100,7 @@ android_app_import {
 	product_specific: true,
 }
 
-ndroid_app_import {
+android_app_import {
 	name: "MotoSignatureApp",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/MotoSignatureApp/MotoSignatureApp.apk",
@@ -146,7 +146,7 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-ndroid_app_import {
+android_app_import {
 	name: "MotoDolbyDax3",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/MotoDolbyDax3/MotoDolbyDax3.apk",
@@ -247,7 +247,6 @@ dex_import {
 	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
 	system_ext_specific: true,
 }
-
 
 dex_import {
 	name: "moto-checkin",
